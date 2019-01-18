@@ -18,7 +18,9 @@ class ViewController: UIViewController {
         //makeError()
         
     }
-    
+    func doSomething(){
+        
+    }
 
 }
 
