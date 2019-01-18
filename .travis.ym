@@ -4,5 +4,4 @@ xcode_scheme: TestTravisCI
 xcode_sdk: iphonesimulator11.3
 osx_image: xcode10.1
 
-script:
-  - xcodebuild clean build -sdk iphonesimulator -workspace TestTravisCI.xcworkspace -scheme TestTravisCI CODE_SIGNING_REQUIRED=NO
+script: xcodebuild clean test -workspace TestTravisCI.xcworkspace -scheme "TestTravisCI" -sdk iphonesimulator -destination "platform=iOS Simulator,name=iPhone X" ONLY_ACTIVE_ARCH=NO CODE_SIGNING_REQUIRED=NO
