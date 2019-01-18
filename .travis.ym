@@ -1,8 +1,8 @@
 language: objective-c
-xcode_workspace: PhotoMemories.xcworkspace # path to your xcodeproj folder
-xcode_scheme: PhotoMemories
+xcode_workspace: TestTravisCI.xcworkspace
+xcode_scheme: TestTravisCI
 xcode_sdk: iphonesimulator11.3
-osx_image: xcode9.4
+osx_image: xcode10.1
 
 script:
-  - xcodebuild clean build -sdk iphonesimulator -workspace PhotoMemories.xcworkspace -scheme PhotoMemories CODE_SIGNING_REQUIRED=NO
+  - xcodebuild clean build -sdk iphonesimulator -workspace TestTravisCI.xcworkspace -scheme TestTravisCI CODE_SIGNING_REQUIRED=NO
