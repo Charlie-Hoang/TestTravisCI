@@ -3,6 +3,7 @@ xcode_workspace: TestTravisCI.xcworkspace
 xcode_scheme: TestTravisCI
 xcode_sdk: iphonesimulator11.3
 osx_image: xcode10.1
+xcode_destination: platform=iOS Simulator, OS = 10.1, name=iPhone X
 
 script:
   - xcodebuild clean build -sdk iphonesimulator -workspace TestTravisCI.xcworkspace -scheme TestTravisCI CODE_SIGNING_REQUIRED=NO

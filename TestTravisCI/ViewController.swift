@@ -16,6 +16,7 @@ class ViewController: UIViewController {
     }
     func makeErorrCode(){
         this is a error code
+        
     }
     
 
