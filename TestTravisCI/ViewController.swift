@@ -12,7 +12,6 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        test error code a
         // Do any additional setup after loading the view, typically from a nib.
     }
 
